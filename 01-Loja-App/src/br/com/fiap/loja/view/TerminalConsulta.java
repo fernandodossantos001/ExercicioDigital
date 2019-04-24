@@ -11,6 +11,6 @@ public class TerminalConsulta {
 		
 		ProdutoTO produto = bo.consulta(Integer.parseInt(JOptionPane.showInputDialog("Informe o codigo do produto")));
 		
-		JOptionPane.showMessageDialog(null, produto.getDescricao(), "Descricao do produto", 1);
+		JOptionPane.showMessageDialog(null, produto.getDescricao(), "Descricao do produto", 1 );
 	}
 }
